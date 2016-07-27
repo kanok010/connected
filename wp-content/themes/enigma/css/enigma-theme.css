@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'RSU';
+
+  src: url('../fonts/RSU.eot');
+  src: url('../fonts/RSU.eot?#iefix') format('embedded-opentype'), url('../fonts/RSU.woff') format('woff'), url('../fonts/RSU.ttf') format('truetype'), url('../fonts/RSU.svg#rsu2') format('svg');
+}
+
+
 body {
    /* padding:0 30px;*/
    font-family: 'Open Sans', sans-serif;
@@ -18,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: #666;
 	text-shadow: 0 0 1px rgba(0,0,0,0.01);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'RSU', sans-serif;
 	font-weight: 700;
 }
 /***** Navbar Menu  **********************************************************************************
