@@ -14,7 +14,7 @@
 .enigma_footer_widget_title, .enigma_header_breadcrum_title h1,
 .enigma_fuul_blog_detail_padding h2 a, .enigma_fuul_blog_detail_padding h2,
 .enigma_sidebar_widget_title h2{
-	font-family : <?php echo $wl_theme_options['theme_title'] ?>;
+	font-family : 'RSU';
 }
 
 .head-contact-info li a, .carousel-list li, .enigma_blog_read_btn,
