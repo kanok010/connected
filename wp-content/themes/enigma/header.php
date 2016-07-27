@@ -37,8 +37,16 @@
 					<p><?php bloginfo( 'description' ); ?></p>
 					</div>
 				</div>
-				<?php if($wl_theme_options['header_social_media_in_enabled']=='1') { ?>
+				
 				<div class="col-md-6 col-sm-12">
+                                <ul class="head-contact-info">
+                                    <li><i class="fa fa-key"></i><a href="http://localhost/connexted/index.php/log-in/">Login</a></li>
+                                    <li><i class="fa fa-sign-in"></i><a href="http://localhost/connexted/index.php/register/">Register</a></li>
+				</ul>
+                                <ul class="head-contact-info">
+                                    <li><a href="http://localhost/connexted/index.php/forgot-password/">Forget Password</a></li>						
+				</ul>
+                                <?php if($wl_theme_options['header_social_media_in_enabled']=='1') { ?>    
 				<?php if($wl_theme_options['email_id'] || $wl_theme_options['phone_no'] !='') { ?>
 				<ul class="head-contact-info">
 						<?php if($wl_theme_options['email_id'] !='') { ?><li><i class="fa fa-envelope"></i><a href="mailto:<?php echo $wl_theme_options['email_id']; ?>"><?php echo esc_attr($wl_theme_options['email_id']); ?></a></li><?php } ?>
@@ -59,9 +67,10 @@
 	                <?php } if($wl_theme_options['instagram']!='') { ?>
 					<li class="facebook" data-toggle="tooltip" data-placement="bottom" title="instagram"><a href="<?php echo esc_url($wl_theme_options['instagram']) ; ?>"><i class="fa fa-instagram"></i></a></li>
 	                <?php } ?>
-					</ul>	
+					</ul>
+                                <?php } ?>    
 				</div>
-				<?php } ?>
+				
 			</div>
 			<!-- /Logo & Contact Info -->
 		</div>	
