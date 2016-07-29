@@ -40,7 +40,7 @@
 				
 				<div class="col-md-6 col-sm-12">
                                 <ul class="head-contact-info">
-                                    <li><i class="fa fa-key"></i><a href="http://localhost/connexted/index.php/log-in/">Login</a></li>
+                                    <li><i class="fa fa-key"></i><a href="<?php echo wp_login_url( home_url() ); ?>">Login</a></li>
                                     <li><i class="fa fa-sign-in"></i><a href="http://localhost/connexted/index.php/register/">Register</a></li>
 				</ul>
                                 <ul class="head-contact-info">
