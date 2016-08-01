@@ -39,3 +39,23 @@
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 	  <div class="enigma_slider_shadow"></div>
     </div><!-- /.carousel -->
+<!--Start Food For Thought -->    
+        
+        <div class="container">
+                <div class="row">
+                        <div class="col-sm-12">
+                                <div class="enigma_heading_title">
+                                        <h3>Inspiring Quotes by 12 CEOs</h3>		
+                                </div>
+                        </div>
+                </div>
+        </div>	
+        <div class="container">
+                <div class="row">
+                        <div class="col-md-12">
+                               <?php echo wp_text_slider();?>
+                        </div>
+                </div>
+        </div>	
+   
+<!--End Food For Thought -->   
