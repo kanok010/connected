@@ -40,12 +40,24 @@
 				
 				<div class="col-md-6 col-sm-12">
                                 <ul class="head-contact-info">
-                                    <li><i class="fa fa-key"></i><a href="<?php echo wp_login_url( home_url() ); ?>">Login</a></li>
-                                    <li><i class="fa fa-sign-in"></i><a href="http://localhost/connexted/index.php/register/">Register</a></li>
+                                    
+                                    <?php if(is_user_logged_in() ){?>
+                                    <li>Welcome, <?php   $current_user = wp_get_current_user();
+                                            echo( esc_html( $current_user->user_firstname."  ".$current_user->user_lastname) );?></li>
+                                    
+                                    
+                                    <?php } else {?>
+                                    <li><i class="fa fa-sign-in"></i><a href="<?php echo wp_login_url( home_url() ); ?>">Login</a></li>
+                                    <li><i class="fa fa-key"></i><a href="<?php echo wp_registration_url(); ?> ">Register</a></li>
+                                    <?php }?>
 				</ul>
                                 <ul class="head-contact-info">
-                                    <li><a href="http://localhost/connexted/index.php/forgot-password/">Forget Password</a></li>						
-				</ul>
+                                <?php if(is_user_logged_in() ){?>    
+                                    <li><i class="fa fa-sign-out"></i><a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a></li>
+				<?php }else{ ?>
+                                    <li><a href="http://localhost/connexted/index.php/forgot-password/">Forget Password</a></li>
+                                <?php } ?>   
+                                </ul>
                                 <?php if($wl_theme_options['header_social_media_in_enabled']=='1') { ?>    
 				<?php if($wl_theme_options['email_id'] || $wl_theme_options['phone_no'] !='') { ?>
 				<ul class="head-contact-info">
