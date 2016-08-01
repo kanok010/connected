@@ -321,7 +321,7 @@ class Text_Slider {
 		wp_localize_script( $this->plugin_slug . '-plugin-script', 'slider_options', $this->js_variables_array );	
 	}
         
-    public function shortcode($attr) {
+    public function shortcode() {
 
         $return = '';
        	$text_slider_settings = get_option('text_slider_settings');
@@ -364,9 +364,9 @@ class Text_Slider {
 			width: 100%;
 			position: relative;
 			font-family: 'RSU';
-			font-size: 90px;
+			/*font-size: 90px;*/
 			font-weight: 600;
-			line-height: 85px;
+			/*line-height: 85px;*/
 			height:auto;
 			overflow:hidden;
 			
@@ -386,7 +386,7 @@ class Text_Slider {
 			width: auto;
 			height: auto;
 			float:right;
-			margin:3%;
+			margin:20px;
 			/*position: absolute;
 			bottom: 0;
 			right: 0;*/
@@ -404,7 +404,7 @@ class Text_Slider {
 		}
 		.nav-color {
 			color: #000;
-			font-size:86px;
+			/*font-size:86px;*/
 		}
 		.nav-color:hover {
 			color: #eee;	
