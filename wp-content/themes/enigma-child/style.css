@@ -1,17 +1,20 @@
 /*
 Theme name: Enigma Child Theme
-Template: Enigma
+Author: Kanokwan Phunmi
+Template: enigma
 */
 
-@import url("../enigma/style.css");
-/* -- Add by Nok -- */
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
 ul.head-contact-info{
     margin-bottom: 0px;
 }
-/* -- Add by Nok -- */
+
 .head-contact-info li i{
     font-size: 14px;
 }
 .head-contact-info li {
-    font-size:14px;   /* -- Edit by Nok -- */	
+    font-size:14px;   
 }
