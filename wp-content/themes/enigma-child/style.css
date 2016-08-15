@@ -1,0 +1,17 @@
+/*
+Theme name: Enigma Child Theme
+Template: Enigma
+*/
+
+@import url("../enigma/style.css");
+/* -- Add by Nok -- */
+ul.head-contact-info{
+    margin-bottom: 0px;
+}
+/* -- Add by Nok -- */
+.head-contact-info li i{
+    font-size: 14px;
+}
+.head-contact-info li {
+    font-size:14px;   /* -- Edit by Nok -- */	
+}
