@@ -47,15 +47,15 @@
                                     
                                     
                                     <?php } else {?>
-                                    <li><i class="fa fa-sign-in"></i><a href="<?php echo wp_login_url( home_url() ); ?>">Login</a></li>
-                                    <li><i class="fa fa-key"></i><a href="<?php echo wp_registration_url(); ?> ">Register</a></li>
+                                    <li><i class="fa fa-sign-in"></i><a href="<?php echo wp_login_url(get_permalink()); ?>">Login</a></li>
+                                    <li><i class="fa fa-key"></i><a href="<?php echo site_url( '/register/'); ?> ">Register</a></li>
                                     <?php }?>
 				</ul>
                                 <ul class="head-contact-info">
                                 <?php if(is_user_logged_in() ){?>    
-                                    <li><i class="fa fa-sign-out"></i><a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a></li>
+                                    <li><i class="fa fa-sign-out"></i><a href="<?php echo site_url( '/logout/?a=logout'); ?>">Logout</a></li>
 				<?php }else{ ?>
-                                    <li><a href="http://localhost/connexted/index.php/forgot-password/">Forget Password</a></li>
+                                    <li><a href="<?php echo site_url( '/forgot-username/'); ?>">Forget Password</a></li>
                                 <?php } ?>   
                                 </ul>
                                 <?php if($wl_theme_options['header_social_media_in_enabled']=='1') { ?>    
