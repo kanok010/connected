@@ -5,7 +5,44 @@
   src: url('../fonts/RSU.eot?#iefix') format('embedded-opentype'), url('../fonts/RSU.woff') format('woff'), url('../fonts/RSU.ttf') format('truetype'), url('../fonts/RSU.svg#rsu2') format('svg');
 }
 
+@font-face {
+    font-family: 'tbold';
+    src: url('../fonts/tbold-webfont.eot');
+    src: url('../fonts/tbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tbold-webfont.woff2') format('woff2'),
+         url('../fonts/tbold-webfont.woff') format('woff'),
+         url('../fonts/tbold-webfont.ttf') format('truetype'),
+         url('../fonts/tbold-webfont.svg#true_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'tlight';
+    src: url('../fonts/tlight-webfont.eot');
+    src: url('../fonts/tlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tlight-webfont.woff2') format('woff2'),
+         url('../fonts/tlight-webfont.woff') format('woff'),
+         url('../fonts/tlight-webfont.ttf') format('truetype'),
+         url('../fonts/tlight-webfont.svg#true_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tmedium';
+    src: url('../fonts/tmedium-webfont.eot');
+    src: url('../fonts/tmedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tmedium-webfont.woff2') format('woff2'),
+         url('../fonts/tmedium-webfont.woff') format('woff'),
+         url('../fonts/tmedium-webfont.ttf') format('truetype'),
+         url('../fonts/tmedium-webfont.svg#true_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
    /* padding:0 30px;*/
    font-family: 'Open Sans', sans-serif;
@@ -26,9 +63,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: #666;
 	text-shadow: 0 0 1px rgba(0,0,0,0.01);
-	font-family: 'RSU', sans-serif;
-	font-weight: 700;
+	font-family: 'tbold', sans-serif;
 }
+h3, h4 ,h5, h6 {
+	font-family: 'tlight', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
 /***** Navbar Menu  **********************************************************************************
 ****************************************************************************************************/
 
