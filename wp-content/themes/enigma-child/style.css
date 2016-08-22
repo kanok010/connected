@@ -18,3 +18,19 @@ ul.head-contact-info{
 .head-contact-info li {
     font-size:14px;   
 }
+.enigma_blog_post_content ul{
+	margin-bottom: 20px;
+}
+
+.enigma_blog_post_content ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+        line-height: 20px;
+}
+.enigma_blog_post_content ul li {
+	color: #777777;
+}
+
+.enigma_blog_post_content ul.list-group li.list-group-item:hover{
+    background-color: #eee;
+}
