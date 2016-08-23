@@ -105,7 +105,7 @@ h3, h4 ,h5, h6 {
 	color:#fff;
 	font-family: 'Arimo',Arial, Helvetica, sans-serif;
 	font-weight: normal;
-	font-size:15px;
+	font-size:22px;
 }
 
 .navbar-default .navbar-nav > .open > a,
@@ -120,7 +120,7 @@ h3, h4 ,h5, h6 {
 	color:#fff;
 	font-family: 'Arimo',Arial, Helvetica, sans-serif;
 	font-weight: normal;
-	font-size:15px;
+	font-size:22px;
 }
 .navbar-default .navbar-nav > li {
 margin-right:7px;
@@ -135,7 +135,7 @@ margin-right:7px;
 	text-transform: uppercase;
 	font-family: 'Arimo',Arial, Helvetica, sans-serif;
 	font-weight: normal;
-	font-size:15px;
+	font-size:22px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -148,7 +148,7 @@ margin-right:7px;
 	color:#fff;
 	font-family: 'Arimo',Arial, Helvetica, sans-serif;
 	font-weight: normal;
-	font-size:15px;
+	font-size:22px;
 }
 
 .dropdown-menu {
@@ -162,7 +162,7 @@ margin-right:7px;
 	min-width: 200px;
 	padding: 0px 0;
 	margin: 2px 0 0;
-	font-size: 14px;
+	font-size: 22px;
 	list-style: none;
 	background-clip: padding-box;
 	border: 0px solid #fff;
@@ -202,7 +202,7 @@ font-family: 'Arimo',Arial, Helvetica, sans-serif;
   font-family: FontAwesome;
   margin-right: 10px;
   opacity: 0;
-  font-size:16px;
+  font-size:22px;
 }
 .dropdown-menu > li > a:hover:before {
   opacity: 1;
