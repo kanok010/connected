@@ -34,3 +34,9 @@ ul.head-contact-info{
 .enigma_blog_post_content ul.list-group li.list-group-item:hover{
     background-color: #eee;
 }
+
+.enigma_blog_post_content .list-tlight ul li{
+    font-family: 'tlight', sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+}
