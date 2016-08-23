@@ -6,7 +6,7 @@
 }
 
 .navbar-default .navbar-nav li a{
-	font-family : <?php echo $wl_theme_options['menu_font'] ?> !important;
+	font-family : 'tlight' !important;
 }
 
 .carousel-text h1, .enigma_heading_title h3, .enigma_service_detail h3,
