@@ -41,7 +41,7 @@
     </div><!-- /.carousel -->
 <!--Start Food For Thought -->    
         
-        <div class="container">
+        <!--<div class="container">
                 <div class="row">
                         <div class="col-sm-12">
                                 <div class="enigma_heading_title">
@@ -49,13 +49,22 @@
                                 </div>
                         </div>
                 </div>
-        </div>	
-        <div class="container">
-                <div class="row">
-                        <div class="col-md-12">
-                               <?php echo wp_text_slider();?>
-                        </div>
-                </div>
-        </div>	
+            <div class="row">
+                    <div class="col-md-12">
+                           <?php echo wp_text_slider();?>
+                    </div>
+            </div>
+        </div>-->
    
-<!--End Food For Thought -->   
+<!--End Food For Thought -->           
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center" style="margin-bottom: 80px;">
+                        <img src="http://www.connexted.org/wp/wp-content/uploads/2016/07/00-1.jpg"/>
+                    </div>
+                </div>
+            </div>
+            
+        </div>	
