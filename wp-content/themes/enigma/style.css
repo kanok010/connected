@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p , .textwidget{
 font-family: 'Open Sans', sans-serif;
-font-size: 16px;
+font-size: 20px;
 line-height: 26px;
 
 }
@@ -60,7 +60,7 @@ line-height: 26px;
 .head-contact-info li {
 	display: inline;
 	margin-right:10px;
-        font-size:18px;
+        font-size:20px;
 	
 }
 .head-contact-info li a{color:#fff;}
@@ -1073,7 +1073,7 @@ transition: all 0.3s ease 0s;
 }
 
 .enigma_blog_thumb_wrapper h2 {
-	font-size: 22px;
+	font-size: 24px;
 	margin-bottom: 8px;
 	padding-right: 0px;
 	line-height:1.4;
@@ -1096,7 +1096,7 @@ transition: all 0.3s ease 0s;
 	text-align:left;
 	padding-left:0;
 	color:#9b9b9b;
-	font-size:14px;
+	font-size:20px;
 	margin-bottom: 0px;
 }
 .enigma_blog_thumb_date li{
@@ -1114,10 +1114,11 @@ transition: all 0.3s ease 0s;
 	color:#555;
 }
 .enigma_blog_thumb_wrapper p{
-	font-size:16px;
+	font-size:20px;
 	padding-right:8px;
 	margin-bottom: 20px;
 	line-height:27px;
+        color: #555;
 }
 .enigma_blog_thumb_wrapper span a i{
 	margin-right:6px;
@@ -1146,7 +1147,7 @@ transition: all 0.3s ease 0s;
 	transition: all 0.4s ease 0s;
 }
 .enigma_blog_read_btn{
-	font-size: 16px;
+	font-size: 20px;
 	color:#fff;
 	display:inline-block;
 	transition: all 0.4s ease 0s;
@@ -1380,7 +1381,7 @@ margin-bottom:20px;
 }
 .enigma_blog_post_content p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 22px;
 	line-height: 27px;
 	margin: 0 0 20px;
 }
@@ -1408,9 +1409,10 @@ margin-bottom:20px;
 }
 
 .enigma_fuul_blog_detail_padding p {
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 26px;
 	margin: 0 0 20px;
+        color:#555;
 }
 .blog-sep.header-sep {
 	margin-top: 40px;
@@ -1578,7 +1580,7 @@ color: #6a6a6a;
 .enigma_footer_widget_column ul li ,.enigma_footer_widget_column ul#recentcomments li a{
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
 	font-family: "Open Sans",sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 20px;	
 	transition: all 0.2s ease 0s;
 }
@@ -2220,16 +2222,13 @@ margin-bottom: 20px;
 .enigma_footer_area p {
    font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
-    font-size: 13px;
+    font-size: 20px;
     bottom:0;
 	text-align:center;
 	padding-top:12px;
+        color: #f2f2f2;
 }
 
-.enigma_footer_area p {
-	color: #f2f2f2;
-	font-size:15px;
-}
 .enigma_footer_area p span{
 	color: #fa504b;
 }
