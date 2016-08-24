@@ -12,7 +12,7 @@ color:<?php echo $acc_title_icon_clr; ?> !important;
 font-size:<?php echo $title_size; ?>px !important;
 display:block;
 padding:0px;
-font-family: <?php echo $font_family; ?> !important;
+font-family: 'truetextc' !important;
 padding-top: 10px;
 padding-bottom: 10px;
 <?php if($enable_ac_border=="yes"){ ?>
@@ -59,7 +59,7 @@ border-bottom:1px solid  #ddd !important;
     padding-right: 10px;
     border: 0px solid #ddd;
 	font-size:<?php echo $title_size; ?>px !important;
-font-family: 'RSU' !important;
+font-family: 'tmedium' !important;
 	
 
 }
@@ -94,7 +94,7 @@ background-color:<?php echo $acc_desc_bg_clr; ?> !important;
 color:<?php echo $acc_desc_font_clr; ?> !important;
 border-top-color: <?php echo $acc_title_bg_clr; ?> !important;
 font-size:<?php echo $des_size; ?>px !important;
-font-family: <?php echo $font_family; ?> !important;
+font-family: 'truetextc' !important;
 overflow: hidden;
 
 border: 0px solid #ddd !important;
