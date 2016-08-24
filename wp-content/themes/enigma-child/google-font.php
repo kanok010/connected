@@ -27,6 +27,6 @@
 .enigma_footer_area p, .comment-author-link, .enigma_sidebar_widget ul li, .enigma_footer_widget_column .textwidget, .textwidget,
 .enigma_callout_area p, .enigma_callout_area a, #searchform .form-control, .tagcloud a, #wp-calendar, 
 .enigma_footer_widget_column .tagcloud a, .enigma_footer_widget_column ul#recentcomments li a, .enigma_footer_widget_column ul#recentcomments li{
-	font-family : <?php echo $wl_theme_options['desc_font_all'] ?> ;
+	font-family : 'truetextc' ;
 }
 </style>
