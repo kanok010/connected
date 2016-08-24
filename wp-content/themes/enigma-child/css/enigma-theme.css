@@ -43,9 +43,21 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'truetextc';
+    src: url('../fonts/ttxtc-webfont.eot');
+    src: url('../fonts/ttxtc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ttxtc-webfont.woff2') format('woff2'),
+         url('../fonts/ttxtc-webfont.woff') format('woff'),
+         url('../fonts/ttxtc-webfont.ttf') format('truetype'),
+         url('../fonts/ttxtc-webfont.svg#truetextcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
    /* padding:0 30px;*/
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'truetextc', sans-serif;
    }
 .row {
     margin-left: 0px;
@@ -380,7 +392,7 @@ color: #999;
 	color:#777777;
 }
 .breadcrumb {
-	font-size: 17px;
+	font-size: 22px;
 	padding: 0;
 	position: relative;
 	display: inline-block;
