@@ -1054,6 +1054,11 @@ transition: all 0.3s ease 0s;
 
 /** wrapper for front page **/
 .enigma_blog_area{
+        background: #ecf0f1;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        border-top: 1px solid #DEE1E2;
+        border-bottom: 1px solid #DEE1E2;
 	padding-top: 90px;
 	padding-bottom: 90px;
 }
@@ -1360,7 +1365,7 @@ margin-bottom:20px;
 
 .post-content-wrap {
 	float: left;
-	width:86%;
+	width:100%;
 }/*
 .post-content-wrap img{
 	width:100%;
