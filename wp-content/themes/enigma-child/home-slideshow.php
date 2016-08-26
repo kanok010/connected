@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="text-center" style="margin-bottom: 80px;">
-                        <img src="http://www.connexted.org/wp/wp-content/uploads/2016/07/00-1.jpg"/>
+                        <img src="http://www.connexted.org/wp-content/uploads/2016/07/00-1.jpg"/>
                     </div>
                 </div>
             </div>
