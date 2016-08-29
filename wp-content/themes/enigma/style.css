@@ -1054,13 +1054,8 @@ transition: all 0.3s ease 0s;
 
 /** wrapper for front page **/
 .enigma_blog_area{
-        background: #ecf0f1;
         padding-top: 90px;
         padding-bottom: 90px;
-        border-top: 1px solid #DEE1E2;
-        border-bottom: 1px solid #DEE1E2;
-	padding-top: 90px;
-	padding-bottom: 90px;
 }
 .enigma_blog_wrapper{
 	margin-bottom: 90px;
